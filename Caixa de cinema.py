@@ -22,9 +22,9 @@ while True:
             print('Sua idade e {} anos Valor do ingresso R${} total de pessooas e {}'.format(s1,ingresso,pessoas))
             continue
         elif s1 >= 13:
-            valor = 30
-            ingresso = s2 * valor
-            print('Sua idade e {} anos Valor do ingresso {}'.format(s1,ingresso))
+            pessoas = s2
+            ingresso = s2 * 30
+            print('Sua idade e {} anos Valor do ingresso R${} Total de pessoas e {}'.format(s1,ingresso,pessoas))
             continue
         else:
             print('opção invalida')
